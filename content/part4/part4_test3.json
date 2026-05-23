@@ -1,0 +1,28 @@
+{
+    "id": "part4_test3",
+    "title": "Test 3",
+    "part": "part4",
+    "partTitle": "Speaking Part 4",
+    "taskTitle": "Discussion questions",
+    "responseSeconds": 240,
+    "extraSeconds": 10,
+    "individualResponseSeconds": 30,
+    "bothResponseSeconds": 60,
+    "questions": [
+        "Do you think technology makes communication easier?",
+        "Are young people too dependent on their phones?",
+        "Is online learning as effective as learning in a classroom?",
+        "How can people stay safe online?",
+        "Do social networks help people make real friends?",
+        "What technology do you think will be most important in the future?"
+    ],
+    "helpScript": [
+        "Technology makes it easier to...",
+        "Some young people depend on...",
+        "Online learning is useful because...",
+        "People can stay safe online by...",
+        "Social networks can help, but...",
+        "In the future, I think..."
+    ],
+    "images": []
+}
