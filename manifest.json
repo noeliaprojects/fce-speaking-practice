@@ -1,0 +1,10 @@
+{
+    "name": "FCE Speaking Practice",
+    "short_name": "FCE Speaking",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#edf3f8",
+    "theme_color": "#1f3a5f",
+    "orientation": "portrait",
+    "icons": []
+}

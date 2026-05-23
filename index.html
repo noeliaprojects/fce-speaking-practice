@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FCE Speaking Practice</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+
+    <meta name="theme-color" content="#1f3a5f" />
+</head>
+
+<body>
+
+    <main class="app">
+
+        <header class="app-header">
+            <div class="header-badge">B2 First Speaking Trainer</div>
+            <h1>FCE Speaking Practice</h1>
+            <p id="studentHeader">Parametrized speaking practice loaded from GitHub content.</p>
+        </header>
+
+        <!-- SCREEN 1: SESSION NAME -->
+        <section id="nameScreen" class="screen active">
+            <div class="card hero-card">
+                <h2>Start session</h2>
+                <p>
+                    Write the student name, pair name or group name. This will appear in the email draft and audio filename.
+                </p>
+
+                <input
+                    id="studentNameInput"
+                    class="text-input"
+                    type="text"
+                    placeholder="Student name, pair name or group name"
+                />
+
+                <button id="saveNameButton" class="primary-button">
+                    Start practice
+                </button>
+            </div>
+        </section>
+
+        <!-- SCREEN 2: MAIN MENU -->
+        <section id="menuScreen" class="screen">
+            <div class="card">
+                <div class="screen-title-row">
+                    <div>
+                        <h2>Choose a section</h2>
+                        <p class="subtitle">
+                            Tests, questions, images, timings and help scripts are loaded from the content folder.
+                        </p>
+                    </div>
+
+                    <button id="reloadContentButton" class="ghost-button">
+                        Reload content
+                    </button>
+                </div>
+
+                <div id="partsContainer" class="button-grid"></div>
+
+                <p id="contentStatus" class="small-note"></p>
+            </div>
+        </section>
+
+        <!-- SCREEN 3: TEST LIST -->
+        <section id="testListScreen" class="screen">
+            <div class="card">
+                <button id="backToMenuButton" class="ghost-button">← Back to menu</button>
+
+                <h2 id="testListTitle">Tests</h2>
+                <p id="testListSubtitle" class="subtitle">Choose a test.</p>
+
+                <div id="testListContainer" class="test-list"></div>
+            </div>
+        </section>
+
+        <!-- SCREEN 4: CANDIDATE CHOICE FOR PART 2 -->
+        <section id="candidateScreen" class="screen">
+            <div class="card">
+                <button id="backToTestsFromCandidateButton" class="ghost-button">← Back to tests</button>
+
+                <h2 id="candidateScreenTitle">Choose your role</h2>
+                <p id="candidateScreenSubtitle" class="subtitle">
+                    Choose whether you want to practise as Candidate A or Candidate B.
+                </p>
+
+                <div id="candidateChoiceContainer" class="candidate-choice-grid"></div>
+            </div>
+        </section>
+
+        <!-- SCREEN 5: PRACTICE -->
+        <section id="practiceScreen" class="screen">
+            <div class="card practice-card">
+                <button id="backToTestsButton" class="ghost-button">← Back to tests</button>
+
+                <div class="practice-heading">
+                    <div>
+                        <h2 id="practiceTitle">Test</h2>
+                        <p id="taskTitle" class="subtitle">Task</p>
+                    </div>
+
+                    <div class="time-info">
+                        <span id="timeInfoText">Timing</span>
+                    </div>
+                </div>
+
+                <!-- COMPLETE TEST PANEL -->
+                <div id="pairSimulationPanel" class="pair-panel hidden">
+                    <div class="pair-panel-header">
+                        <div>
+                            <h3>Full pair simulation</h3>
+                            <p class="subtitle">
+                                The examiner voice will guide both candidates automatically.
+                            </p>
+                        </div>
+
+                        <div id="attemptInfo" class="attempt-pill">Attempt 0</div>
+                    </div>
+
+                    <div class="pair-name-grid">
+                        <label>
+                            Candidate 1 detected name
+                            <input
+                                id="candidate1NameInput"
+                                class="text-input compact-input"
+                                type="text"
+                                placeholder="Detected name"
+                            />
+                        </label>
+
+                        <label>
+                            Candidate 2 detected name
+                            <input
+                                id="candidate2NameInput"
+                                class="text-input compact-input"
+                                type="text"
+                                placeholder="Detected name"
+                            />
+                        </label>
+                    </div>
+                </div>
+
+                <!-- STAGE NAVIGATION FOR SEPARATE PRACTICE -->
+                <div id="stageNavigation" class="stage-navigation"></div>
+
+                <div class="stage-card">
+                    <div class="stage-label" id="stageCounter">Stage 1 of 1</div>
+                    <h2 id="stageTitle">Stage title</h2>
+                    <p id="stageDescription" class="subtitle"></p>
+                </div>
+
+                <div id="examinerPromptBox" class="examiner-box hidden">
+                    <div class="examiner-label">Examiner says</div>
+                    <p id="examinerPromptText"></p>
+                </div>
+
+                <div id="speakerBox" class="speaker-box hidden">
+                    <span id="speakerText">Speaker</span>
+                </div>
+
+                <div id="imagesContainer" class="images-container"></div>
+
+                <div class="section-box">
+                    <h3>Questions</h3>
+                    <div id="questionsContainer"></div>
+                </div>
+
+                <div class="section-box help-box">
+                    <h3>Useful help</h3>
+                    <ul id="helpContainer"></ul>
+                </div>
+
+                <div class="timer-card">
+                    <div class="timer-label">Time remaining</div>
+                    <div class="timer" id="timerDisplay">00:00</div>
+                    <div class="timer-note" id="timerNote">Timing loaded from JSON.</div>
+                </div>
+
+                <div class="recording-panel">
+                    <button id="startRecordingButton" class="primary-button">
+                        Start recording
+                    </button>
+
+                    <button id="pauseResumeButton" class="secondary-button" disabled>
+                        Pause
+                    </button>
+
+                    <button id="stopRecordingButton" class="danger-button" disabled>
+                        Stop recording
+                    </button>
+
+                    <button id="playRecordingButton" class="secondary-button" disabled>
+                        Listen
+                    </button>
+                </div>
+
+                <div id="audioProgressBox" class="audio-progress-box hidden">
+                    <div class="audio-controls">
+                        <button id="back10Button" class="small-audio-button" disabled>
+                            ↺ 10s
+                        </button>
+
+                        <button id="playPauseAudioButton" class="main-audio-button" disabled>
+                            ▶ Play
+                        </button>
+
+                        <button id="forward10Button" class="small-audio-button" disabled>
+                            10s ↻
+                        </button>
+                    </div>
+
+                    <div class="audio-time-row">
+                        <span id="audioCurrentTime">00:00</span>
+                        <span id="audioDuration">00:00</span>
+                    </div>
+
+                    <input
+                        id="audioProgress"
+                        class="audio-progress"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="0"
+                        step="1"
+                    />
+                </div>
+
+                <div class="section-box">
+                    <h3>Transcription</h3>
+                    <p id="transcriptionStatus" class="small-note">
+                        The app will try to transcribe automatically while recording.
+                    </p>
+
+                    <textarea
+                        id="transcriptionInput"
+                        class="textarea"
+                        placeholder="Automatic transcription or notes..."
+                    ></textarea>
+                </div>
+
+                <div class="stage-move-grid">
+                    <button id="previousStageButton" class="secondary-button">
+                        Previous stage
+                    </button>
+
+                    <button id="nextStageButton" class="secondary-button">
+                        Next stage
+                    </button>
+                </div>
+
+                <div class="action-grid">
+                    <button id="shareButton" class="primary-button" disabled>
+                        Share audio and text
+                    </button>
+
+                    <button id="emailButton" class="secondary-button" disabled>
+                        Open Gmail draft
+                    </button>
+
+                    <button id="downloadButton" class="secondary-button" disabled>
+                        Download audio
+                    </button>
+
+                    <button id="repeatAttemptButton" class="secondary-button" disabled>
+                        Repeat attempt
+                    </button>
+                </div>
+
+                <p class="warning">
+                    Gmail web can prepare the subject and body, but it cannot attach the audio automatically.
+                    Use “Share audio and text” on mobile or download the audio and attach it manually.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
