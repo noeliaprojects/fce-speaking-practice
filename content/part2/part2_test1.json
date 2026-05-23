@@ -1,0 +1,107 @@
+{
+    "id": "part2_test1",
+    "title": "Test 1",
+    "part": "part2",
+    "partTitle": "Speaking Part 2",
+    "taskTitle": "Long turn and short response",
+    "candidateSets": [
+        {
+            "candidate": "Candidate A",
+            "description": "Practise Candidate A photographs and Candidate A short response.",
+            "stages": [
+                {
+                    "id": "candidate_a_long_turn",
+                    "title": "Candidate A - Long turn",
+                    "description": "Compare your two photographs and answer the question.",
+                    "responseSeconds": 60,
+                    "extraSeconds": 10,
+                    "images": [
+                        "content/part2/images/part2_test1_A1.jpg",
+                        "content/part2/images/part2_test1_A2.jpg"
+                    ],
+                    "questions": [
+                        "The photographs show people spending time outdoors.",
+                        "Compare the photographs and say why the people might be enjoying these activities."
+                    ],
+                    "helpScript": [
+                        "In the first picture, I can see...",
+                        "In the second picture, there is...",
+                        "Both pictures show...",
+                        "One clear difference is that...",
+                        "The people might be enjoying it because...",
+                        "Compared with the first picture..."
+                    ]
+                },
+                {
+                    "id": "candidate_a_short_response",
+                    "title": "Candidate A - Short response",
+                    "description": "Answer a short question about Candidate B's photographs.",
+                    "responseSeconds": 30,
+                    "extraSeconds": 10,
+                    "images": [
+                        "content/part2/images/part2_test1_B1.jpg",
+                        "content/part2/images/part2_test1_B2.jpg"
+                    ],
+                    "questions": [
+                        "Which of these learning situations do you think is more useful for young people? Why?"
+                    ],
+                    "helpScript": [
+                        "I think the first / second situation is more useful because...",
+                        "In my opinion...",
+                        "It might help young people to...",
+                        "I would choose this one because..."
+                    ]
+                }
+            ]
+        },
+        {
+            "candidate": "Candidate B",
+            "description": "Practise Candidate B photographs and Candidate B short response.",
+            "stages": [
+                {
+                    "id": "candidate_b_long_turn",
+                    "title": "Candidate B - Long turn",
+                    "description": "Compare your two photographs and answer the question.",
+                    "responseSeconds": 60,
+                    "extraSeconds": 10,
+                    "images": [
+                        "content/part2/images/part2_test1_B1.jpg",
+                        "content/part2/images/part2_test1_B2.jpg"
+                    ],
+                    "questions": [
+                        "The photographs show people learning something.",
+                        "Compare the photographs and say how useful these learning experiences might be."
+                    ],
+                    "helpScript": [
+                        "In the first picture, I can see...",
+                        "In the second picture, there is...",
+                        "Both photographs are connected because...",
+                        "One important difference is that...",
+                        "This experience might be useful because...",
+                        "Compared with the second picture..."
+                    ]
+                },
+                {
+                    "id": "candidate_b_short_response",
+                    "title": "Candidate B - Short response",
+                    "description": "Answer a short question about Candidate A's photographs.",
+                    "responseSeconds": 30,
+                    "extraSeconds": 10,
+                    "images": [
+                        "content/part2/images/part2_test1_A1.jpg",
+                        "content/part2/images/part2_test1_A2.jpg"
+                    ],
+                    "questions": [
+                        "Which of these outdoor activities do you think is more relaxing? Why?"
+                    ],
+                    "helpScript": [
+                        "I think the first / second activity is more relaxing because...",
+                        "It looks more...",
+                        "The people seem to be...",
+                        "I would prefer this activity because..."
+                    ]
+                }
+            ]
+        }
+    ]
+}

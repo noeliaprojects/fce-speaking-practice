@@ -1,0 +1,27 @@
+{
+    "id": "part1_test1",
+    "title": "Test 1",
+    "part": "part1",
+    "partTitle": "Speaking Part 1",
+    "taskTitle": "Interview questions",
+    "responseSeconds": 180,
+    "extraSeconds": 0,
+    "questions": [
+        "What do you enjoy doing in your free time?",
+        "Do you enjoy learning English? Why?",
+        "What do you usually do after school?",
+        "What do you usually do at weekends?",
+        "Do you prefer studying alone or with other people? Why?",
+        "Would you like to live in another country in the future?"
+    ],
+    "helpScript": [
+        "I usually...",
+        "In my free time, I enjoy...",
+        "I like it because...",
+        "For example...",
+        "I prefer... because...",
+        "It depends on...",
+        "In the future, I would like..."
+    ],
+    "images": []
+}

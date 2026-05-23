@@ -1,0 +1,70 @@
+{
+    "contentVersion": "1.0.0",
+    "parts": [
+        {
+            "id": "part1",
+            "title": "Speaking Part 1",
+            "description": "Interview questions.",
+            "tests": [
+                {
+                    "id": "part1_test1",
+                    "title": "Test 1",
+                    "description": "Personal questions and everyday topics.",
+                    "file": "content/part1/part1_test1.json"
+                }
+            ]
+        },
+        {
+            "id": "part2",
+            "title": "Speaking Part 2",
+            "description": "Long turn with photographs and short response.",
+            "tests": [
+                {
+                    "id": "part2_test1",
+                    "title": "Test 1",
+                    "description": "Photographs for Candidate A and Candidate B.",
+                    "file": "content/part2/part2_test1.json"
+                }
+            ]
+        },
+        {
+            "id": "part3",
+            "title": "Speaking Part 3",
+            "description": "Collaborative discussion and agreement task.",
+            "tests": [
+                {
+                    "id": "part3_test1",
+                    "title": "Test 1",
+                    "description": "Discussion diagram about improving English.",
+                    "file": "content/part3/part3_test1.json"
+                }
+            ]
+        },
+        {
+            "id": "part4",
+            "title": "Speaking Part 4",
+            "description": "Follow-up discussion questions.",
+            "tests": [
+                {
+                    "id": "part4_test1",
+                    "title": "Test 1",
+                    "description": "Questions about learning English and confidence.",
+                    "file": "content/part4/part4_test1.json"
+                }
+            ]
+        },
+        {
+            "id": "complete",
+            "title": "Complete Speaking Test",
+            "description": "Full pair simulation using the selected Part 1, 2, 3 and 4 tests.",
+            "tests": [
+                {
+                    "id": "complete_test1",
+                    "title": "Complete Test 1",
+                    "description": "Complete test built from Test 1 of each part.",
+                    "file": "content/complete/complete_test1.json"
+                }
+            ]
+        }
+    ]
+}

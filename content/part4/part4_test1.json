@@ -1,0 +1,30 @@
+{
+    "id": "part4_test1",
+    "title": "Test 1",
+    "part": "part4",
+    "partTitle": "Speaking Part 4",
+    "taskTitle": "Discussion questions",
+    "responseSeconds": 240,
+    "extraSeconds": 10,
+    "individualResponseSeconds": 30,
+    "bothResponseSeconds": 60,
+    "questions": [
+        "How important is English for young people today?",
+        "What is the best way to improve speaking skills?",
+        "Do you think students should practise speaking more often in class?",
+        "Is it better to learn English in class or online?",
+        "Do you think making mistakes is important when learning a language?",
+        "How can students become more confident when speaking English?"
+    ],
+    "helpScript": [
+        "In my opinion...",
+        "From my point of view...",
+        "I partly agree because...",
+        "It depends on...",
+        "One important reason is...",
+        "I would also add that...",
+        "To be honest...",
+        "For example..."
+    ],
+    "images": []
+}
