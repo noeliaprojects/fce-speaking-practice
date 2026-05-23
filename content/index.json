@@ -11,6 +11,30 @@
                     "title": "Test 1",
                     "description": "Personal questions and everyday topics.",
                     "file": "content/part1/part1_test1.json"
+                },
+                {
+                    "id": "part1_test2",
+                    "title": "Test 2",
+                    "description": "Daily life, routines and preferences.",
+                    "file": "content/part1/part1_test2.json"
+                },
+                {
+                    "id": "part1_test3",
+                    "title": "Test 3",
+                    "description": "Technology, hobbies and school life.",
+                    "file": "content/part1/part1_test3.json"
+                },
+                {
+                    "id": "part1_test4",
+                    "title": "Test 4",
+                    "description": "Friends, family, travel and future plans.",
+                    "file": "content/part1/part1_test4.json"
+                },
+                {
+                    "id": "part1_test5",
+                    "title": "Test 5",
+                    "description": "Entertainment, learning and personal opinions.",
+                    "file": "content/part1/part1_test5.json"
                 }
             ]
         },
@@ -22,8 +46,32 @@
                 {
                     "id": "part2_test1",
                     "title": "Test 1",
-                    "description": "Photographs for Candidate A and Candidate B.",
+                    "description": "Outdoor activities and learning situations.",
                     "file": "content/part2/part2_test1.json"
+                },
+                {
+                    "id": "part2_test2",
+                    "title": "Test 2",
+                    "description": "People working together and people relaxing.",
+                    "file": "content/part2/part2_test2.json"
+                },
+                {
+                    "id": "part2_test3",
+                    "title": "Test 3",
+                    "description": "Technology and social activities.",
+                    "file": "content/part2/part2_test3.json"
+                },
+                {
+                    "id": "part2_test4",
+                    "title": "Test 4",
+                    "description": "Travel experiences and school activities.",
+                    "file": "content/part2/part2_test4.json"
+                },
+                {
+                    "id": "part2_test5",
+                    "title": "Test 5",
+                    "description": "Challenges and creative activities.",
+                    "file": "content/part2/part2_test5.json"
                 }
             ]
         },
@@ -35,8 +83,32 @@
                 {
                     "id": "part3_test1",
                     "title": "Test 1",
-                    "description": "Discussion diagram about improving English.",
+                    "description": "Improving English.",
                     "file": "content/part3/part3_test1.json"
+                },
+                {
+                    "id": "part3_test2",
+                    "title": "Test 2",
+                    "description": "Organising a school event.",
+                    "file": "content/part3/part3_test2.json"
+                },
+                {
+                    "id": "part3_test3",
+                    "title": "Test 3",
+                    "description": "Reducing stress before exams.",
+                    "file": "content/part3/part3_test3.json"
+                },
+                {
+                    "id": "part3_test4",
+                    "title": "Test 4",
+                    "description": "Helping teenagers be more independent.",
+                    "file": "content/part3/part3_test4.json"
+                },
+                {
+                    "id": "part3_test5",
+                    "title": "Test 5",
+                    "description": "Making a town better for young people.",
+                    "file": "content/part3/part3_test5.json"
                 }
             ]
         },
@@ -48,8 +120,32 @@
                 {
                     "id": "part4_test1",
                     "title": "Test 1",
-                    "description": "Questions about learning English and confidence.",
+                    "description": "English, confidence and learning.",
                     "file": "content/part4/part4_test1.json"
+                },
+                {
+                    "id": "part4_test2",
+                    "title": "Test 2",
+                    "description": "School, teamwork and free time.",
+                    "file": "content/part4/part4_test2.json"
+                },
+                {
+                    "id": "part4_test3",
+                    "title": "Test 3",
+                    "description": "Technology, communication and online life.",
+                    "file": "content/part4/part4_test3.json"
+                },
+                {
+                    "id": "part4_test4",
+                    "title": "Test 4",
+                    "description": "Travel, culture and personal growth.",
+                    "file": "content/part4/part4_test4.json"
+                },
+                {
+                    "id": "part4_test5",
+                    "title": "Test 5",
+                    "description": "Creativity, challenges and the future.",
+                    "file": "content/part4/part4_test5.json"
                 }
             ]
         },
@@ -63,6 +159,30 @@
                     "title": "Complete Test 1",
                     "description": "Complete test built from Test 1 of each part.",
                     "file": "content/complete/complete_test1.json"
+                },
+                {
+                    "id": "complete_test2",
+                    "title": "Complete Test 2",
+                    "description": "Complete test built from Test 2 of each part.",
+                    "file": "content/complete/complete_test2.json"
+                },
+                {
+                    "id": "complete_test3",
+                    "title": "Complete Test 3",
+                    "description": "Complete test built from Test 3 of each part.",
+                    "file": "content/complete/complete_test3.json"
+                },
+                {
+                    "id": "complete_test4",
+                    "title": "Complete Test 4",
+                    "description": "Complete test built from Test 4 of each part.",
+                    "file": "content/complete/complete_test4.json"
+                },
+                {
+                    "id": "complete_test5",
+                    "title": "Complete Test 5",
+                    "description": "Complete test built from Test 5 of each part.",
+                    "file": "content/complete/complete_test5.json"
                 }
             ]
         }
