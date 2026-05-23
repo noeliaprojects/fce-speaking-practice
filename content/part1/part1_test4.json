@@ -1,0 +1,26 @@
+{
+    "id": "part1_test4",
+    "title": "Test 4",
+    "part": "part1",
+    "partTitle": "Speaking Part 1",
+    "taskTitle": "Interview questions",
+    "responseSeconds": 180,
+    "extraSeconds": 0,
+    "questions": [
+        "Who do you usually talk to when you need advice?",
+        "Do you prefer spending time at home or going out? Why?",
+        "What is a place you would like to visit?",
+        "Do you enjoy trying new activities?",
+        "What do you usually do when you feel stressed?",
+        "What are your plans for next summer?"
+    ],
+    "helpScript": [
+        "When I need advice, I usually talk to...",
+        "I prefer... because...",
+        "A place I would like to visit is...",
+        "I enjoy trying new activities because...",
+        "When I feel stressed, I usually...",
+        "Next summer, I would like to..."
+    ],
+    "images": []
+}

@@ -1,0 +1,109 @@
+{
+    "id": "part2_test3",
+    "title": "Test 3",
+    "part": "part2",
+    "partTitle": "Speaking Part 2",
+    "taskTitle": "Long turn and short response",
+    "candidateSets": [
+        {
+            "candidate": "Candidate A",
+            "description": "Practise Candidate A photographs and Candidate A short response.",
+            "stages": [
+                {
+                    "id": "candidate_a_long_turn",
+                    "title": "Candidate A - Long turn",
+                    "description": "Compare your two photographs and answer the question.",
+                    "responseSeconds": 60,
+                    "extraSeconds": 10,
+                    "images": [
+                        "content/part2/images/part2_test3_A1.jpg",
+                        "content/part2/images/part2_test3_A2.jpg"
+                    ],
+                    "questions": [
+                        "The photographs show people using technology.",
+                        "Compare the photographs and say how technology might be helping the people."
+                    ],
+                    "helpScript": [
+                        "In the first picture, I can see...",
+                        "In the second picture, there is...",
+                        "Both pictures show...",
+                        "One clear difference is that...",
+                        "The people might be... because...",
+                        "Compared with the first picture..."
+                    ]
+                },
+                {
+                    "id": "candidate_a_short_response",
+                    "title": "Candidate A - Short response",
+                    "description": "Answer a short question about Candidate B's photographs.",
+                    "responseSeconds": 30,
+                    "extraSeconds": 10,
+                    "images": [
+                        "content/part2/images/part2_test3_B1.jpg",
+                        "content/part2/images/part2_test3_B2.jpg"
+                    ],
+                    "questions": [
+                        "Which social activity do you think is more enjoyable? Why?"
+                    ],
+                    "helpScript": [
+                        "I think the first / second picture shows...",
+                        "In my opinion...",
+                        "I would choose this one because...",
+                        "It seems more...",
+                        "The people probably feel..."
+                    ]
+                }
+            ]
+        },
+        {
+            "candidate": "Candidate B",
+            "description": "Practise Candidate B photographs and Candidate B short response.",
+            "stages": [
+                {
+                    "id": "candidate_b_long_turn",
+                    "title": "Candidate B - Long turn",
+                    "description": "Compare your two photographs and answer the question.",
+                    "responseSeconds": 60,
+                    "extraSeconds": 10,
+                    "images": [
+                        "content/part2/images/part2_test3_B1.jpg",
+                        "content/part2/images/part2_test3_B2.jpg"
+                    ],
+                    "questions": [
+                        "The photographs show people spending time together.",
+                        "Compare the photographs and say why spending time with other people might be important."
+                    ],
+                    "helpScript": [
+                        "In the first picture, I can see...",
+                        "In the second picture, there is...",
+                        "Both pictures show...",
+                        "One clear difference is that...",
+                        "The people might be... because...",
+                        "Compared with the first picture..."
+                    ]
+                },
+                {
+                    "id": "candidate_b_short_response",
+                    "title": "Candidate B - Short response",
+                    "description": "Answer a short question about Candidate A's photographs.",
+                    "responseSeconds": 30,
+                    "extraSeconds": 10,
+                    "images": [
+                        "content/part2/images/part2_test3_A1.jpg",
+                        "content/part2/images/part2_test3_A2.jpg"
+                    ],
+                    "questions": [
+                        "Which use of technology do you think is more useful? Why?"
+                    ],
+                    "helpScript": [
+                        "I think the first / second picture shows...",
+                        "In my opinion...",
+                        "I would choose this one because...",
+                        "It seems more...",
+                        "The people probably feel..."
+                    ]
+                }
+            ]
+        }
+    ]
+}

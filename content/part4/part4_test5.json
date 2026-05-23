@@ -1,0 +1,28 @@
+{
+    "id": "part4_test5",
+    "title": "Test 5",
+    "part": "part4",
+    "partTitle": "Speaking Part 4",
+    "taskTitle": "Discussion questions",
+    "responseSeconds": 240,
+    "extraSeconds": 10,
+    "individualResponseSeconds": 30,
+    "bothResponseSeconds": 60,
+    "questions": [
+        "Do you think creativity is important in everyday life?",
+        "Should schools give students more opportunities to be creative?",
+        "Why do some people enjoy difficult challenges?",
+        "Is it important to fail sometimes?",
+        "What skills will young people need in the future?",
+        "How can people prepare for changes in the world?"
+    ],
+    "helpScript": [
+        "Creativity is important because...",
+        "Schools could help students by...",
+        "Some people enjoy challenges because...",
+        "Failing can be useful when...",
+        "In the future, young people will need...",
+        "People can prepare by..."
+    ],
+    "images": []
+}

@@ -1,0 +1,26 @@
+{
+    "id": "part1_test5",
+    "title": "Test 5",
+    "part": "part1",
+    "partTitle": "Speaking Part 1",
+    "taskTitle": "Interview questions",
+    "responseSeconds": 180,
+    "extraSeconds": 0,
+    "questions": [
+        "What type of music do you enjoy listening to?",
+        "Do you prefer watching films at home or at the cinema? Why?",
+        "What is something you are proud of?",
+        "Do you think it is important to have hobbies?",
+        "What do you find difficult about learning English?",
+        "What would you like your life to be like in ten years?"
+    ],
+    "helpScript": [
+        "I enjoy listening to...",
+        "I prefer watching films... because...",
+        "Something I am proud of is...",
+        "I think hobbies are important because...",
+        "The most difficult thing about English is...",
+        "In ten years, I would like to..."
+    ],
+    "images": []
+}

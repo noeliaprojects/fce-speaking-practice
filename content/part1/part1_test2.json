@@ -1,0 +1,26 @@
+{
+    "id": "part1_test2",
+    "title": "Test 2",
+    "part": "part1",
+    "partTitle": "Speaking Part 1",
+    "taskTitle": "Interview questions",
+    "responseSeconds": 180,
+    "extraSeconds": 0,
+    "questions": [
+        "What is a normal school day like for you?",
+        "Do you prefer doing homework in the afternoon or in the evening? Why?",
+        "What kind of food do you enjoy eating?",
+        "How do you usually spend time with your friends?",
+        "Do you prefer busy days or quiet days? Why?",
+        "What would you like to improve about your daily routine?"
+    ],
+    "helpScript": [
+        "A normal day for me usually starts with...",
+        "I prefer... because...",
+        "I enjoy eating...",
+        "When I am with my friends, we usually...",
+        "I would say that...",
+        "One thing I would like to improve is..."
+    ],
+    "images": []
+}

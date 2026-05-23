@@ -1,0 +1,28 @@
+{
+    "id": "part4_test4",
+    "title": "Test 4",
+    "part": "part4",
+    "partTitle": "Speaking Part 4",
+    "taskTitle": "Discussion questions",
+    "responseSeconds": 240,
+    "extraSeconds": 10,
+    "individualResponseSeconds": 30,
+    "bothResponseSeconds": 60,
+    "questions": [
+        "Why do many people enjoy travelling?",
+        "Is it important to learn about other cultures?",
+        "Do you think travelling alone is a good idea?",
+        "Can people learn more from travelling than from books?",
+        "What problems can tourists cause in popular places?",
+        "How can travelling change a person?"
+    ],
+    "helpScript": [
+        "Many people enjoy travelling because...",
+        "Learning about other cultures helps us to...",
+        "Travelling alone can be...",
+        "Books can teach us..., but travelling...",
+        "Tourists can cause problems such as...",
+        "Travelling can change a person because..."
+    ],
+    "images": []
+}

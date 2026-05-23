@@ -1,0 +1,26 @@
+{
+    "id": "part1_test3",
+    "title": "Test 3",
+    "part": "part1",
+    "partTitle": "Speaking Part 1",
+    "taskTitle": "Interview questions",
+    "responseSeconds": 180,
+    "extraSeconds": 0,
+    "questions": [
+        "How often do you use your phone during the day?",
+        "What kind of videos do you usually watch online?",
+        "Do you prefer reading on paper or on a screen? Why?",
+        "What subject at school do you find most interesting?",
+        "Do you prefer learning new things alone or with a teacher?",
+        "What skill would you like to learn in the future?"
+    ],
+    "helpScript": [
+        "I use my phone mostly for...",
+        "I usually watch videos about...",
+        "I prefer... because...",
+        "The subject I find most interesting is...",
+        "It is easier for me to learn when...",
+        "In the future, I would like to learn..."
+    ],
+    "images": []
+}

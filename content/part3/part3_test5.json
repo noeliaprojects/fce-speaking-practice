@@ -1,0 +1,58 @@
+{
+    "id": "part3_test5",
+    "title": "Test 5",
+    "part": "part3",
+    "partTitle": "Speaking Part 3",
+    "taskTitle": "Collaborative task",
+    "stages": [
+        {
+            "id": "discussion",
+            "title": "Part 3 - Discussion",
+            "description": "Talk about the options in the diagram.",
+            "speaker": "{{candidate1}} and {{candidate2}}",
+            "examinerPrompt": "{{candidate1}} and {{candidate2}}, talk about how important these ideas might be for young people in the town.",
+            "responseSeconds": 120,
+            "extraSeconds": 10,
+            "closingPrompt": "Thank you.",
+            "images": [
+                "content/part3/images/part3_test5_diagram.jpg"
+            ],
+            "questions": [
+                "A town wants to be better for young people.",
+                "Talk about how important these ideas might be for young people in the town."
+            ],
+            "helpScript": [
+                "Shall we start with...?",
+                "What do you think about...?",
+                "One advantage is that...",
+                "Another useful option could be...",
+                "I see your point, but...",
+                "I agree with you because..."
+            ]
+        },
+        {
+            "id": "agreement",
+            "title": "Part 3 - Agreement",
+            "description": "Make a final decision.",
+            "speaker": "{{candidate1}} and {{candidate2}}",
+            "examinerPrompt": "Now decide which two changes would make the biggest difference.",
+            "responseSeconds": 60,
+            "extraSeconds": 10,
+            "closingPrompt": "Thank you.",
+            "images": [
+                "content/part3/images/part3_test5_diagram.jpg"
+            ],
+            "questions": [
+                "Now decide which two changes would make the biggest difference."
+            ],
+            "helpScript": [
+                "I think we should choose...",
+                "For me, the best options are...",
+                "Do you agree?",
+                "Maybe we can agree on...",
+                "So, let's choose...",
+                "Our final decision is..."
+            ]
+        }
+    ]
+}

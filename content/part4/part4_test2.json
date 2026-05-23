@@ -1,0 +1,28 @@
+{
+    "id": "part4_test2",
+    "title": "Test 2",
+    "part": "part4",
+    "partTitle": "Speaking Part 4",
+    "taskTitle": "Discussion questions",
+    "responseSeconds": 240,
+    "extraSeconds": 10,
+    "individualResponseSeconds": 30,
+    "bothResponseSeconds": 60,
+    "questions": [
+        "Do you think students should have more choice about what they study?",
+        "How important is teamwork at school?",
+        "Is it better to do projects alone or in groups?",
+        "Do young people have enough free time nowadays?",
+        "Should schools organise more activities outside the classroom?",
+        "What can students learn from working with different people?"
+    ],
+    "helpScript": [
+        "I think schools should...",
+        "Teamwork is important because...",
+        "Working alone can be useful when...",
+        "In my opinion, young people...",
+        "Activities outside the classroom help students to...",
+        "Students can learn to..."
+    ],
+    "images": []
+}

@@ -1,0 +1,16 @@
+{
+    "id": "complete_test3",
+    "title": "Complete Test 3",
+    "part": "complete",
+    "partTitle": "Complete Speaking Test",
+    "taskTitle": "Full B2 First Speaking Pair Simulation",
+    "fullPairSimulation": true,
+    "continuousMode": true,
+    "introPrompt": "Good morning. This is the B2 First Speaking Test. I am going to ask both candidates some questions. Please answer clearly. Let's begin.",
+    "sourceFiles": {
+        "part1": "content/part1/part1_test3.json",
+        "part2": "content/part2/part2_test3.json",
+        "part3": "content/part3/part3_test3.json",
+        "part4": "content/part4/part4_test3.json"
+    }
+}
