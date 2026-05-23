@@ -1600,12 +1600,11 @@ function startSpeechRecognition() {
         window.SpeechRecognition || window.webkitSpeechRecognition;
 
     if (!SpeechRecognitionConstructor) {
-        transcriptionStatus.textContent =
-            "Automatic transcription is not available in this browser. The student can write notes manually.";
-        transcriptionStatus.className = "small-note transcription-warning";
-        return;
-    }
-
+    transcriptionStatus.textContent =
+        "Automatic transcription is not available in this browser or device. On mobile, try Chrome on Android or Safari directly from the browser. You can still write notes manually.";
+    transcriptionStatus.className = "small-note transcription-warning";
+    return;
+}
     recognitionFinalText = "";
     recognitionBaseText = transcriptionInput.value.trim();
 
@@ -1654,8 +1653,8 @@ function startSpeechRecognition() {
     };
 
     speechRecognition.onerror = event => {
-        transcriptionStatus.textContent =
-            "Automatic transcription stopped or could not continue. The audio will still be saved.";
+    transcriptionStatus.textContent =
+        "Automatic transcription stopped or could not continue on this device. The audio will still be saved. You can write notes manually if needed.";
         transcriptionStatus.className = "small-note transcription-warning";
         console.error("Speech recognition error:", event.error);
     };
@@ -1887,11 +1886,23 @@ function updateGlobalActionButtons() {
     }
 
     shareButton.disabled = !canSend;
-    emailButton.disabled = !canSend;
+
+    if (isMobileDevice()) {
+        emailButton.classList.add("hidden");
+        emailButton.disabled = true;
+    } else {
+        emailButton.classList.remove("hidden");
+        emailButton.disabled = !canSend;
+    }
+
     repeatAttemptButton.disabled = !canSend || !fullPairSimulation;
+}
+function isMobileDevice() {
+    return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 }
 
 async function shareRecordings() {
+    stopPlayerIfNeeded();
     const recordedFiles = getRecordedFiles();
 
     if (recordedFiles.length === 0) {
@@ -1923,6 +1934,7 @@ async function shareRecordings() {
 }
 
 function openGmailDraft() {
+    stopPlayerIfNeeded();
     const subject = encodeURIComponent(buildEmailSubject());
     const body = encodeURIComponent(buildEmailBody());
 
@@ -1936,6 +1948,7 @@ function openGmailDraft() {
 }
 
 function downloadCurrentRecording() {
+    stopPlayerIfNeeded();
     let audioUrl = null;
     let fileName = "";
 

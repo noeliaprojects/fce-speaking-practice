@@ -377,14 +377,6 @@ button:disabled {
     line-height: 1.5;
 }
 
-.timer-card {
-    margin-top: 20px;
-    padding: 22px;
-    border-radius: 26px;
-    background: linear-gradient(180deg, #ffffff, #f4f8fb);
-    border: 1px solid var(--border);
-    text-align: center;
-}
 
 .timer-label {
     color: var(--muted);
@@ -432,6 +424,15 @@ button:disabled {
     grid-template-columns: 1fr;
     gap: 10px;
     margin-top: 16px;
+}
+
+.timer-card {
+    margin-top: 20px;
+    padding: 22px;
+    border-radius: 26px;
+    background: linear-gradient(180deg, #ffffff, #f4f8fb);
+    border: 1px solid var(--border);
+    text-align: center;
 }
 
 .images-container {
@@ -582,5 +583,23 @@ button:disabled {
 
     .audio-controls {
         grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 720px) {
+    .timer-card {
+        position: sticky;
+        top: 8px;
+        z-index: 50;
+        padding: 14px;
+        border: 2px solid var(--border);
+    }
+
+    .timer {
+        font-size: 42px;
+    }
+
+    .timer-label,
+    .timer-note {
+        font-size: 12px;
     }
 }
